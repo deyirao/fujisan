@@ -6,7 +6,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px 40px;
-    color: white;
     position: relative;
 }
 
@@ -39,11 +38,15 @@
     color: black;
     text-decoration: none;
     padding: 8px 12px;
+    transition: color 0.3s;
 }
 
 .navbar ul li a:hover {
-    background-color: #555;
     border-radius: 4px;
+    background-image: linear-gradient(to right, #ff0000, #ff7373);
+    color: black;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
 
 .flag-hamburger {
@@ -51,23 +54,26 @@
     align-items: center;
 }
 
+.navbar .flag {
+    display: flex;
+    align-items: center;
+    height: 40px; /* Set to match the height of the logo for consistent alignment */
+}
+
 .navbar .flag img {
     height: 20px;
+    margin-left: 25px; 
 }
 
 .hamburger {
     display: none;
     flex-direction: column;
     cursor: pointer;
-    margin-left: 25px;
 }
 
-.hamburger span {
-    height: 3px;
-    width: 25px;
-    background: black;
-    margin: 4px 0;
-    transition: 0.4s;
+.hamburger img {
+    height: 25px; /* Adjust the size as needed */
+    margin-right: 25px;
 }
 
 @media (max-width: 1020px) {
@@ -78,6 +84,10 @@
         position: absolute;
         top: 110px;
         left: 0;
+        background-color: rgba(135, 135, 135, 0.9); /* Add background color for mobile menu */
+        backdrop-filter: blur(10px); /* Add blur effect */
+        transition: transform 0.3s ease-in-out; /* Smooth transition for showing the menu */
+        transform: translateY(-100%);
     }
     
     .navbar ul {
@@ -98,11 +108,12 @@
 
     .hamburger {
         display: flex;
-        margin: 0px 45px;
+        margin-left: 25px;
     }
     
     .navbar .nav-links.active {
         display: flex;
+        transform: translateY(0);
     }
 
     .nav-container {
@@ -115,5 +126,9 @@
         flex-direction: row-reverse;
         align-items: center;
         margin-left: auto;
+    }
+
+    .hidden {
+        display: none;
     }
 }
