@@ -2,3 +2,7 @@ body {
     margin: 0;
     font-family: 'Inter', Arial, sans-serif;
 }
+
+.landing-page {
+    background: url('../img/hero.png') no-repeat center center/cover;
+}
