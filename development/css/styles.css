@@ -6,3 +6,42 @@ body {
 .landing-page {
     background: url('../img/hero.png') no-repeat center center/cover;
 }
+
+/* Text Styles */
+h1 {
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 36px;
+    line-height: 76px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 32px;
+    line-height: normal; /* Automatic line height */
+}
+
+.navbar ul li a {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: normal; /* Automatic line height */
+}
+
+.hero-button {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600; /* Semi-bold */
+    line-height: normal; /* Automatic line height */
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: normal; /* Automatic line height */
+}
+
+.opening-hours {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: normal; /* Automatic line height */
+}

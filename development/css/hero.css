@@ -26,17 +26,17 @@
 
 .hero h1 {
     font-size: 4rem;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .hero p {
     font-size: 1.5rem;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .hero-buttons {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     justify-content: center;
 }
 
