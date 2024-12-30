@@ -51,8 +51,8 @@
     border-radius: 50px;
     text-decoration: none;
     font-size: 1rem;
-    transition: background 0.3s;
     text-align: center;
+    transition: color 0.3s, border 0.3s;
 }
 
 .hero-button.menu {
@@ -67,6 +67,10 @@
 }
 
 .hero-button.menu:hover {
-    color: rgb(251, 83, 83);
-    transition: opacity 0.3s ease-in-out;
+    color: #ff5353;
+}
+
+.hero-button.order:hover {
+    color: #d22626;
+    border: 2px solid #d22626;
 }
