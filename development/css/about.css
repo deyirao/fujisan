@@ -1,0 +1,71 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+    background-color: #f8f8f8;
+}
+
+.about-content {
+    display: flex;
+    gap: 110px;
+    max-width: 1900px;
+    width: 100%;
+    align-items: center; /* Vertical alignment of children */
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.about-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center text vertically */
+    gap: 20px; /* Even spacing between elements */
+    margin: 0; /* Ensure no extra margin is applied */
+}
+
+.about-text h2,
+.about-text p,
+.about-button {
+    margin: 0; /* Reset default margins */
+    padding: 0; /* Reset default padding */
+}
+
+.about-text h2 {
+    font-family: 'Sawarabi Mincho', serif;
+    font-size: 3rem;
+    line-height: normal;
+    font-weight: 400;
+}
+
+.about-text p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    line-height: normal;
+    text-align: justify;
+}
+
+.about-button {
+    display: inline-block; /* Inline-block for button */
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    transition: color 0.3s, border 0.3s;
+    background: black;
+    color: white;
+    align-self: flex-start; /* Optional: position button to the left */
+}
+
+.about-button:hover {
+    color: #ff5353;
+}
