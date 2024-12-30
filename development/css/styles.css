@@ -25,38 +25,93 @@ body {
 /* Text Styles */
 h1 {
     font-family: 'Sawarabi Mincho', serif;
-    font-size: 36px;
-    line-height: 76px;
+    font-size: 4rem;
+    line-height: 5rem;
     font-weight: 400;
 }
 
 h2 {
     font-family: 'Sawarabi Mincho', serif;
-    font-size: 32px;
+    font-size: 3rem;
+    line-height: normal;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
     line-height: normal; /* Automatic line height */
 }
 
 .navbar ul li a {
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 0.9rem;
     line-height: normal; /* Automatic line height */
 }
 
 .hero-button {
     font-family: 'Inter', sans-serif;
-    font-size: 13px;
+    font-size: 1rem;
     font-weight: 600; /* Semi-bold */
     line-height: normal; /* Automatic line height */
 }
 
-p {
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    line-height: normal; /* Automatic line height */
+.about-button {
+    font-size: 1rem;
 }
 
 .opening-hours {
     font-family: 'Inter', sans-serif;
     font-size: 14px;
     line-height: normal; /* Automatic line height */
+}
+
+/* Media Queries for Smaller Screens */
+
+/* Medium screens (tablets, small desktops) */
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 3.5rem; /* Adjust h1 font size for medium screens */
+    }
+    h2 {
+        font-size: 2.8rem; /* Adjust h2 font size for medium screens */
+    }
+    p {
+        font-size: 1.4rem; /* Adjust paragraph font size for medium screens */
+    }
+    .navbar ul li a {
+        font-size: 0.85rem; /* Adjust navigation link font size for medium screens */
+    }
+}
+
+/* Small screens (large phones, tablets) */
+@media (max-width: 992px) {
+    h1 {
+        font-size: 3rem; /* Further reduce h1 size for small screens */
+    }
+    h2 {
+        font-size: 2.5rem; /* Further reduce h2 size for small screens */
+    }
+    p {
+        font-size: 1.3rem; /* Further reduce paragraph font size for small screens */
+    }
+    .navbar ul li a {
+        font-size: 0.8rem; /* Adjust navigation link font size for small screens */
+    }
+}
+
+/* Extra small screens (phones) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem; /* Make h1 smaller on very small screens */
+    }
+    h2 {
+        font-size: 2rem; /* Make h2 smaller on very small screens */
+    }
+    p {
+        font-size: 1.2rem; /* Make paragraphs smaller on very small screens */
+    }
+    .navbar ul li a {
+        font-size: 0.75rem; /* Adjust nav link size for small screens */
+    }
 }

@@ -32,24 +32,12 @@
     margin: 0; /* Ensure no extra margin is applied */
 }
 
-.about-text h2,
-.about-text p,
-.about-button {
+.about-text h2 {
     margin: 0; /* Reset default margins */
     padding: 0; /* Reset default padding */
 }
 
-.about-text h2 {
-    font-family: 'Sawarabi Mincho', serif;
-    font-size: 3rem;
-    line-height: normal;
-    font-weight: 400;
-}
-
 .about-text p {
-    font-family: 'Inter', sans-serif;
-    font-size: 1.5rem;
-    line-height: normal;
     text-align: justify;
 }
 
