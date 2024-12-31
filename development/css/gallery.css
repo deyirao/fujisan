@@ -1,0 +1,38 @@
+/* gallery.css */
+
+.gallery {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+}
+
+.gallery p {
+    margin-bottom: 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.gallery-item {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%; /* Makes the div a square */
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
