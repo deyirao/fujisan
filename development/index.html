@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fujisan</title>
+
+    <!-- Include remix icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
     <!-- Include Google Fonts for Sawarabi Mincho and Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
@@ -14,7 +21,8 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/gallery.css"> <!-- New stylesheet for the gallery section -->
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/testimonials.css">
 </head>
 <body>
 
@@ -49,7 +57,7 @@
         <section class="hero">
             <div class="hero-content">
                 <h1>GENIESSEN SIE DAS BESTE <br> DER JAPANISCHEN KÜCHE!</h1>
-                <p>Entdecken Sie unsere frischen Sushi, Ramen und <br> köstlichen warmen Gerichte! Jetzt anrufen und <br> zum Abholen bestellen oder reservieren!</p>
+                <p>Entdecken Sie unsere frischen Sushi, Ramen und <br> köstlichen warmen Gerichte: Jetzt anrufen und <br> zum Abholen bestellen!</p>
                 <div class="hero-buttons">
                     <a href="#gallery" class="hero-button menu">SPEISEKARTE</a>
                     <a href="#contact" class="hero-button order">BESTELLEN</a>
@@ -90,6 +98,41 @@
                 <div class="item" style="--position: 6"><img src="img/gallery/6-fuji-street.jpg" alt="Gallery Image 6"></div>
                 <div class="item" style="--position: 7"><img src="img/gallery/7-crispy-chicken.jpg" alt="Gallery Image 7"></div>
                 <div class="item" style="--position: 8"><img src="img/gallery/8-bento.jpg" alt="Gallery Image 8"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2>BEWERTUNGEN</h2>
+        <p>Entdecken Sie, was unsere zufriedenen Gäste über uns sagen und <br> warum unser Restaurant in Kleve so geschätzt wird!</p>
+        <div class="testimonials__grid">
+            <div class="card">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <p>
+                    Fantastisches Sushi! Frisch und lecker, mit kreativen Kombinationen. Das Personal ist freundlich und die Atmosphäre angenehm. Wir kommen definitiv wieder!
+                </p>
+                <hr />
+                <img src="img/anna.jpg" alt="user" />
+                <p class="name">Anna M.</p>
+            </div>
+            <div class="card">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <p>
+                Tolles japanisches Restaurant mit einer gemütlichen Atmosphäre. Die warmen Gerichte sind hervorragend zubereitet und schmecken authentisch. Besonders die knusprige Ente war ein Highlight!
+                </p>
+                <hr />
+                <img src="img/frank.jpg" alt="user" />
+                <p class="name">Frank J.</p>
+            </div>
+            <div class="card">
+                <span><i class="ri-double-quotes-l"></i></span>
+                <p>
+                Die besten Ramen, die ich je hatte! Die Brühe war reichhaltig und aromatisch, umso besser bei kalten Tagen. Sehr empfehlenswert für Ramen-Liebhaber.
+                </p>
+                <hr />
+                <img src="img/nico.jpg" alt="user" />
+                <p class="name">Nico R.</p>
             </div>
         </div>
     </section>
