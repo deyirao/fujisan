@@ -71,3 +71,27 @@
     color: #d22626;
     border: 2px solid #d22626;
 }
+
+@media (max-width: 1920px) {
+    .hero-content {
+        margin-top: -380px;
+    }
+    
+    .hero h1 {
+        margin-bottom: 25px;
+    }
+    
+    .hero p {
+        margin-bottom: 30px;
+    }
+    
+    .hero-buttons {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .hero-button {
+        max-width: 60px;
+    }
+}

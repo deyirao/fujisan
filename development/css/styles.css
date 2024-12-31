@@ -66,52 +66,23 @@ p {
     line-height: normal; /* Automatic line height */
 }
 
-/* Media Queries for Smaller Screens */
+/* Media Queries for Full HD Desktop Screens */
 
-/* Medium screens (tablets, small desktops) */
-@media (max-width: 1200px) {
+@media (max-width: 1920px) {
     h1 {
-        font-size: 3.5rem; /* Adjust h1 font size for medium screens */
+        font-size: 3rem; /* Adjust h1 font size for medium screens */
+        line-height: 3.5rem;
     }
     h2 {
-        font-size: 2.8rem; /* Adjust h2 font size for medium screens */
+        font-size: 1.8rem; /* Adjust h2 font size for medium screens */
     }
     p {
-        font-size: 1.4rem; /* Adjust paragraph font size for medium screens */
+        font-size: 1rem; /* Adjust paragraph font size for medium screens */
     }
     .navbar ul li a {
-        font-size: 0.85rem; /* Adjust navigation link font size for medium screens */
+        font-size: 0.8rem; /* Adjust navigation link font size for medium screens */
     }
-}
-
-/* Small screens (large phones, tablets) */
-@media (max-width: 992px) {
-    h1 {
-        font-size: 3rem; /* Further reduce h1 size for small screens */
-    }
-    h2 {
-        font-size: 2.5rem; /* Further reduce h2 size for small screens */
-    }
-    p {
-        font-size: 1.3rem; /* Further reduce paragraph font size for small screens */
-    }
-    .navbar ul li a {
-        font-size: 0.8rem; /* Adjust navigation link font size for small screens */
-    }
-}
-
-/* Extra small screens (phones) */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2.5rem; /* Make h1 smaller on very small screens */
-    }
-    h2 {
-        font-size: 2rem; /* Make h2 smaller on very small screens */
-    }
-    p {
-        font-size: 1.2rem; /* Make paragraphs smaller on very small screens */
-    }
-    .navbar ul li a {
-        font-size: 0.75rem; /* Adjust nav link size for small screens */
+    .hero-button {
+        font-size: 0.8rem;
     }
 }
