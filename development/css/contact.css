@@ -1,0 +1,76 @@
+/* contact.css */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.contact-content {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.contact-info, .contact-map {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-row .icon {
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 40px;  /* Ensure the width and height are equal */
+    height: 40px; /* Ensure the width and height are equal */
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.info-row p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    color: #666;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+    text-decoration: none; /* Remove underlines */
+}
+
+.social-icons a:hover {
+    color: #000;
+}
+
+.contact-map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
