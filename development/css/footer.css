@@ -1,0 +1,20 @@
+.footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    padding: 20px 0; /* Padding on top and bottom */
+}
+
+.footer-text {
+    margin: 0; /* Remove default margin */
+}
+
+.footer-text a {
+    color: #fff; /* Link color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-text a:hover {
+    color: #ff5353;
+}
