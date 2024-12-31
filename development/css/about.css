@@ -46,7 +46,6 @@
     padding: 15px 30px;
     border-radius: 50px;
     text-decoration: none;
-    font-size: 1rem;
     text-align: center;
     transition: color 0.3s, border 0.3s;
     background: black;
@@ -56,4 +55,28 @@
 
 .about-button:hover {
     color: #ff5353;
+}
+
+@media (max-width: 1920px) {
+    .about-content {
+        display: flex;
+        gap: 80px;
+        max-width: 1300px;
+        width: 100%;
+        align-items: center; /* Vertical alignment of children */
+    }
+
+    .about {
+        padding: 100px 0;
+    }
+
+    .about-button {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .about-button {
+        max-width: 60px;
+    }
 }

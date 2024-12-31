@@ -73,16 +73,24 @@ p {
         font-size: 3rem; /* Adjust h1 font size for medium screens */
         line-height: 3.5rem;
     }
+
     h2 {
         font-size: 1.8rem; /* Adjust h2 font size for medium screens */
     }
+
     p {
         font-size: 1rem; /* Adjust paragraph font size for medium screens */
     }
+
     .navbar ul li a {
         font-size: 0.8rem; /* Adjust navigation link font size for medium screens */
     }
+
     .hero-button {
+        font-size: 0.8rem;
+    }
+
+    .about-button {
         font-size: 0.8rem;
     }
 }
