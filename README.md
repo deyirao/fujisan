@@ -22,7 +22,7 @@
 
 10. Create a drop-down menu for the germany flag with the additional flags for neitherlands and england
 
-11. Remove the <br> tags in the index.html and set the text breaks per CSS
+11. Remove the "br" tags in the index.html and set the text breaks per CSS
 
 12. Make the website responsive for all screens (qhd, full hd, etc.)
 
