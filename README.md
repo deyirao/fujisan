@@ -4,7 +4,7 @@
 
 1. ~~Change icons from contact section~~
 
-2. Change text alignment for opening hours
+2. ~~Change text alignment for opening hours~~
 
 3. Create links for mail and phone number section in contact section
 

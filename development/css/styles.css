@@ -66,6 +66,11 @@ p {
     line-height: normal; /* Automatic line height */
 }
 
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
 /* Media Queries for Full HD Desktop Screens */
 
 @media (max-width: 1920px) {
@@ -92,5 +97,9 @@ p {
 
     .about-button {
         font-size: 0.8rem;
+    }
+
+    table tr td {
+        font-size: 1rem;
     }
 }
