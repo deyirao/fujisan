@@ -8,7 +8,7 @@
 
 3. Create links for mail and phone number section in contact section
 
-4. Create link to github profile for footer designer name
+4. ~~Create link to linkedin profile for footer designer name~~
 
 5. Unify the margins between all sections (bottom and top margin should be the same)
 
