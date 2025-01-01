@@ -2,7 +2,7 @@
 
 ## TODO:
 
-1. Change icons from contact section
+1. ~~Change icons from contact section~~
 
 2. Change text alignment for opening hours
 

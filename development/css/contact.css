@@ -47,6 +47,16 @@
     font-size: 1.5rem;
 }
 
+.info-row .icon img {
+    width: 25px;
+    height: 25px;
+    font-weight: 100;
+}
+
+.info-row .icon .phone-icon {
+    font-weight: 400;
+}
+
 .info-row p {
     margin: 0;
     font-size: 1rem;
