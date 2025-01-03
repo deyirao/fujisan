@@ -65,6 +65,15 @@ table {
     border-collapse: collapse;
 }
 
+p a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+p a:hover {
+    color: #ff5353;
+}
+
 /* Media Queries for Full HD Desktop Screens */
 
 @media (max-width: 1920px) {

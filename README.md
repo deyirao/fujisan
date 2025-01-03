@@ -6,7 +6,7 @@
 
 2. ~~Change text alignment for opening hours~~
 
-3. Create links for mail and phone number section in contact section
+3. ~~Create links for mail and phone number section in contact section~~
 
 4. ~~Create link to linkedin profile for footer designer name~~
 
