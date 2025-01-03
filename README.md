@@ -10,7 +10,7 @@
 
 4. ~~Create link to linkedin profile for footer designer name~~
 
-5. Unify the margins between all sections (bottom and top margin should be the same)
+5. ~~Unify the margins between all sections (bottom and top margin should be the same)~~
 
 6. Create a manual slider instead of a carousel for gallery section
 

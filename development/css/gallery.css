@@ -2,12 +2,12 @@
 
 .gallery {
     text-align: center;
-    padding: 50px 20px;
-    padding-bottom: 100px;
+    padding: 130px 1rem;
 }
 
 .gallery h2 {
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
+    margin-top: 0px;
 }
 
 .gallery p {
@@ -15,7 +15,9 @@
 }
 
 .slider{
+    margin: 0 auto 1rem;
     width: 100%;
+    max-width: 1900px;
     height: var(--height);
     overflow: hidden;
     mask-image: linear-gradient(
