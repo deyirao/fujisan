@@ -16,7 +16,7 @@
 
 7. ~~Make sure buttons work for "Speisekarte", "Bestellen" and "Reservieren"~~
 
-8. Make the navigation links scroll smoothly to the corresponding section
+8. ~~Make the navigation links scroll smoothly to the corresponding section~~
 
 9. Add a link for the fujisan logo on the navigation bar
 
