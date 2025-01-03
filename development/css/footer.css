@@ -10,11 +10,5 @@
 }
 
 .footer-text a {
-    color: #fff; /* Link color */
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.footer-text a:hover {
-    color: #ff5353;
+    color: #fff;
 }

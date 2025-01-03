@@ -6,7 +6,7 @@
 
 2. ~~Change text alignment for opening hours~~
 
-3. ~~Create links for mail and phone number section in contact section~~
+3. ~~Create links for mail and phone number in contact section~~
 
 4. ~~Create link to linkedin profile for footer designer name~~
 
@@ -14,7 +14,7 @@
 
 6. Create a manual slider instead of a carousel for gallery section
 
-7. Make sure buttons work for "Speisekarte", "Bestellen" and "Reservieren"
+7. ~~Make sure buttons work for "Speisekarte", "Bestellen" and "Reservieren"~~
 
 8. Make the navigation links scroll smoothly to the corresponding section
 

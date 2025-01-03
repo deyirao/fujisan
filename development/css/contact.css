@@ -10,12 +10,21 @@
 .contact-content {
     display: flex;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1500px;
 }
 
 .contact-info, .contact-map {
     flex: 1;
     padding: 20px;
+}
+
+.contact-map iframe {
+    width: 100%;
+    width: 800px;
+    height: 500px;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info {
@@ -25,6 +34,7 @@
 }
 
 .contact-info h2 {
+    margin-top: 0px;
     margin-bottom: 20px;
 }
 
