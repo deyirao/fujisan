@@ -12,7 +12,7 @@
 
 5. ~~Unify the margins between all sections (bottom and top margin should be the same)~~
 
-6. Create a manual slider instead of a carousel for gallery section
+6. ~~Create a manual slider instead of a carousel for gallery section~~
 
 7. ~~Make sure buttons work for "Speisekarte", "Bestellen" and "Reservieren"~~
 
