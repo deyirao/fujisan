@@ -18,7 +18,7 @@
 
 8. ~~Make the navigation links scroll smoothly to the corresponding section~~
 
-9. Add a link for the fujisan logo on the navigation bar
+9. ~~Add a link for the fujisan logo on the navigation bar~~
 
 10. Create a drop-down menu for the germany flag with the additional flags for neitherlands and england
 
