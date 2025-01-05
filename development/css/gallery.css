@@ -2,7 +2,8 @@
 
 .gallery {
     text-align: center;
-    padding: 130px 1rem;
+    padding: 150px 1rem;
+    padding-bottom: 190px;
 }
 
 .gallery h2 {
@@ -32,9 +33,27 @@
     width: 80%;
     border-radius: 30px;
     object-fit: cover;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
 }
 
 .swiper-pagination {
-    bottom: 50px;
-    position: absolute;
+    margin-bottom: -30px;
+}
+
+.swiper-pagination::after {
+    background-color: #ccc;  /* Default bullet color */
+    opacity: 0.7;
+}
+
+.gallery .swiper-pagination-bullet-active {
+    background-color: #ff5353;
+    opacity: 1;
+}
+
+.gallery .swiper-pagination-bullet {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.gallery .swiper-pagination-bullet-active {
+    transform: scale(1.2);  /* Slightly enlarges the active bullet */
 }

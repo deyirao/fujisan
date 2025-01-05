@@ -66,10 +66,6 @@
         align-items: center; /* Vertical alignment of children */
     }
 
-    .about {
-        padding: 100px 0;
-    }
-
     .about-button {
         display: flex;
         gap: 20px;
