@@ -5,6 +5,10 @@ const swiper = new Swiper('.swiper-container', {
         el: '.swiper-pagination',
         clickable: true,
     },
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
     breakpoints: {
         640: {
             slidesPerView: 1,
