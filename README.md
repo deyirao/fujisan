@@ -22,10 +22,11 @@
 
 10. ~~Create a drop-down menu for the germany flag with the additional flags for neitherlands and england~~
 
-11. Remove the "br" tags in the index.html and set the text breaks per CSS
+11. ~~Add english text for the english version of the website~~
 
-12. Make the website responsive for all screens (qhd, full hd, etc.)
+12. ~~Add dutch text for the dutch version of the website~~
 
-13. ~~Add english text for the english version of the website~~
+13. Remove the "br" tags in the index.html and set the text breaks per CSS
 
-14. ~~Add dutch text for the dutch version of the website~~
+14. Make the website responsive for all screens (qhd, full hd, etc.)
+
