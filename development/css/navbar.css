@@ -27,7 +27,7 @@
     padding: 0;
 }
 
-.navbar ul li {
+.navbar .nav-container .nav-links li {
     margin: 0 25px;
 }
 
@@ -57,9 +57,12 @@
     height: 30px;
 }
 
+.flag {
+    margin-left: 25px;
+}
+
 .navbar .flag img {
     height: 20px;
-    margin-left: 25px;
 }
 
 .hamburger {
@@ -71,6 +74,73 @@
 .hamburger img {
     height: 25px;
     margin-right: 25px;
+}
+
+.language-dropdown {
+    position: relative;
+    cursor: pointer;
+}
+
+.selected-language {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.selected-language img {
+    height: 20px;
+}
+
+.selected-language span {
+    display: none;
+}
+
+.dropdown-options li span {
+    display: none;
+    flex-grow: 1; /* Allows text to take up remaining space */
+    text-align: left; /* Align text to the left, keeping consistent spacing */
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    border: 1px solid #ccc;
+    z-index: 10;
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    width: 100%;  /* Ensure dropdown matches the width of the selected box */
+    box-sizing: border-box;  /* Include padding and border in width calculation */
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.dropdown-options li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 20px; /* Ensure the entire list item spans the full dropdown width */
+    margin: 0; /* Remove any extra margin */
+    padding: 5px 5px; /* Ensure no padding is added */
+    justify-content: center;
+}
+
+.dropdown-options li img {
+    height: 20px;
+    margin: 0; /* Remove any extra margin */
+    padding: 0; /* Ensure no padding is added */
+}
+
+.dropdown-options li:hover {
+    background-color: #f0f0f0;
 }
 
 @media (max-width: 1920px) {
@@ -96,7 +166,7 @@
         opacity: 0;
         pointer-events: none;
         z-index: 999;
-        transition: transform 0.3s ease-in-out;/* Ensure smooth transitions */
+        transition: transform 0.3s ease-in-out; /* Ensure smooth transitions */
     }
 
     .navbar ul {
@@ -128,7 +198,7 @@
         opacity: 1;
         pointer-events: auto;
         background-color: rgba(109, 109, 109, 0.108); /* Increase background opacity */
-        transition: background-color 0.4s ease-in-out, opacity 0.4s ease-in-out;/* Ensure smooth transitions */
+        transition: background-color 0.4s ease-in-out, opacity 0.4s ease-in-out; /* Ensure smooth transitions */
     }
 
     .navbar .nav-links.active .nav-menu li {

@@ -20,14 +20,12 @@
 
 9. ~~Add a link for the fujisan logo on the navigation bar~~
 
-10. Create a drop-down menu for the germany flag with the additional flags for neitherlands and england
+10. ~~Create a drop-down menu for the germany flag with the additional flags for neitherlands and england~~
 
 11. Remove the "br" tags in the index.html and set the text breaks per CSS
 
 12. Make the website responsive for all screens (qhd, full hd, etc.)
 
-13. Make all the text replaceable with different languages
+13. ~~Add english text for the english version of the website~~
 
-14. Add english text for the english version of the website
-
-15. Add dutch text for the dutch version of the website
+14. ~~Add dutch text for the dutch version of the website~~
