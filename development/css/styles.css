@@ -8,6 +8,7 @@ body {
     font-family: 'Inter', Arial, sans-serif;
 }
 
+/* Hero & navbar section background image */
 .landing-page {
     position: relative;
     width: 100%;
@@ -24,7 +25,7 @@ body {
     height: 100%;
     background: url('../img/hero.png') no-repeat center center;
     background-size: cover;
-    z-index: -1; /* Ensures the background is behind the content */
+    z-index: -1;
 }
 
 /* Text Styles */
@@ -45,20 +46,20 @@ h2 {
 p, td {
     font-family: 'Inter', sans-serif;
     font-size: 1.1rem;
-    line-height: normal; /* Automatic line height */
+    line-height: normal;
 }
 
 .navbar ul li a {
     font-family: 'Inter', sans-serif;
     font-size: 0.9rem;
-    line-height: normal; /* Automatic line height */
+    line-height: normal;
 }
 
 .hero-button {
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
-    font-weight: 600; /* Semi-bold */
-    line-height: normal; /* Automatic line height */
+    font-weight: 600;
+    line-height: normal;
 }
 
 .about-button {
@@ -79,8 +80,34 @@ p a:hover {
     color: #ff5353;
 }
 
-/* Media Queries for Full HD Desktop Screens */
+/* Animation */
+.about.section,
+.testimonials.section {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.8s ease-out;
+}
 
+.gallery.section,
+.contact.section {
+    transform: scale(0.8);
+    opacity: 0;
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+}
+
+.about.section.visible,
+.testimonials.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.gallery.section.visible,
+.contact.section.visible {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* Media Queries for Full HD Desktop Screens */
 @media (max-width: 1920px) {
     h1 {
         font-size: 3rem; /* Adjust h1 font size for medium screens */
