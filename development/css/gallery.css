@@ -12,7 +12,8 @@
 }
 
 .gallery p {
-    margin-bottom: 40px;
+    margin: 0 auto 40px auto;
+    max-width: 650px;
 }
 
 /* Adjustments for Swiper */

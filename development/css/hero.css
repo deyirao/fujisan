@@ -23,14 +23,17 @@
     position: relative;
     z-index: 2;
     margin-top: -520px;
+    text-align: center;
+    justify-content: center;
 }
 
 .hero h1 {
-    margin-bottom: 50px;
+    margin: 0 auto 50px auto;
 }
 
 .hero p {
-    margin-bottom: 50px;
+    margin: 0 auto 50px auto;
+    max-width: 40%;
 }
 
 .hero-buttons {

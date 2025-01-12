@@ -34,6 +34,8 @@ h1 {
     font-size: 3.5rem;
     line-height: 4.2rem;
     font-weight: 400;
+    max-width: 55%;
+    text-align: center;
 }
 
 h2 {
