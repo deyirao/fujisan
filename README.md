@@ -26,7 +26,7 @@
 
 12. ~~Add dutch text for the dutch version of the website~~
 
-13. ~~Remove the "br" tags in the index.html and set the text breaks per CSS~~
+13. ~~Remove the 'br' tags in the index.html and set the text breaks per CSS~~
 
 14. Make the website responsive for all screens (qhd, full hd, etc.)
 

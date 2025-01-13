@@ -109,23 +109,23 @@ p a:hover {
     opacity: 1;
 }
 
-/* Media Queries for Full HD Desktop Screens */
+/* Full HD */
 @media (max-width: 1920px) {
     h1 {
-        font-size: 3rem; /* Adjust h1 font size for medium screens */
+        font-size: 3rem;
         line-height: 3.5rem;
     }
 
     h2 {
-        font-size: 2.3rem; /* Adjust h2 font size for medium screens */
+        font-size: 2.3rem;
     }
 
-    p, td {
-        font-size: 1rem; /* Adjust paragraph font size for medium screens */
+    p, td, table tr td {
+        font-size: 1rem;
     }
 
     .navbar ul li a {
-        font-size: 0.8rem; /* Adjust navigation link font size for medium screens */
+        font-size: 0.8rem;
     }
 
     .hero-button {
@@ -135,8 +135,32 @@ p a:hover {
     .about-button {
         font-size: 0.8rem;
     }
+}
 
-    table tr td {
-        font-size: 1rem;
+/* Large devices (Small desktops, large tablets, landscape) */
+@media (max-width: 1025px) {
+    h1 {
+        font-size: 2.5rem;
+        line-height: 2.9rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p, td, table tr td {
+        font-size: 0.9rem;
+    }
+
+    .navbar ul li a {
+        font-size: 0.7rem;
+    }
+
+    .hero-button {
+        font-size: 0.7rem;
+    }
+
+    .about-button {
+        font-size: 0.7rem;
     }
 }

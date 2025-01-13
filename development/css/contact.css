@@ -21,6 +21,7 @@
 .contact-map iframe {
     width: 100%;
     width: 800px;
+    max-width: 1500px;
     height: 500px;
     border: 0;
     border-radius: 30px;
@@ -96,4 +97,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Responsive one-column layout for smaller screens */
+@media (max-width: 1025px) {
+    .contact {
+        flex-direction: column;
+        padding: 100px 1rem;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        max-width: 800px;
+        width: 100%;
+        box-sizing: border-box; /* Ensure padding is included in total width */
+    }
+
+    .contact-info, .contact-map {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-map iframe {
+        width: 100%;
+        max-width: 100%; /* Prevent exceeding the container width */
+        height: 500px;   /* Adjust height as needed */
+        border: 0;
+        box-sizing: border-box;
+    }
 }

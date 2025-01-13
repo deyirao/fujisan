@@ -9,9 +9,9 @@
 .about-content {
     display: flex;
     gap: 110px;
-    max-width: 1900px;
+    max-width: 1800px;
     width: 100%;
-    align-items: center; /* Vertical alignment of children */
+    align-items: center;
 }
 
 .about-image {
@@ -27,14 +27,14 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center text vertically */
-    gap: 20px; /* Even spacing between elements */
-    margin: 0; /* Ensure no extra margin is applied */
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
 }
 
 .about-text h2 {
-    margin: 0; /* Reset default margins */
-    padding: 0; /* Reset default padding */
+    margin: 0;
+    padding: 0;
 }
 
 .about-text p {
@@ -42,7 +42,7 @@
 }
 
 .about-button {
-    display: inline-block; /* Inline-block for button */
+    display: flex;
     padding: 15px 30px;
     border-radius: 50px;
     text-decoration: none;
@@ -50,29 +50,66 @@
     transition: color 0.3s, border 0.3s;
     background: black;
     color: white;
-    align-self: flex-start; /* Optional: position button to the left */
+    align-self: flex-start;
+    justify-content: center;
 }
 
 .about-button:hover {
     color: #ff5353;
 }
 
+/* Full HD */
 @media (max-width: 1920px) {
     .about-content {
-        display: flex;
         gap: 80px;
         max-width: 1300px;
-        width: 100%;
-        align-items: center; /* Vertical alignment of children */
     }
 
     .about-button {
-        display: flex;
-        gap: 20px;
-        justify-content: center;
+        gap: 20px; 
     }
     
     .about-button {
-        max-width: 60px;
+        max-width: 70px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .about-content {
+        gap: 70px;
+        max-width: 900px;
+    }
+
+    .about-button {
+        gap: 20px; 
+    }
+    
+    .about-button {
+        max-width: 70px;
+    }
+}
+
+/* Large devices (Small desktops, large tablets, landscape) */
+@media (max-width: 1025px) {
+    .about-content {
+        flex-direction: column;
+        gap: 30px;
+        max-width: 650px;
+    }
+
+    .about-image {
+        order: 2;
+    }
+
+    .about-text {
+        order: 1;
+    }
+
+    .about-button {
+        padding: 15px 288px;
+        align-self: center;
+        font-size: 0.9rem;
+        background-color: #c0c0c0;
+        color: black;
     }
 }
