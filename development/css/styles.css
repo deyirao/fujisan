@@ -137,6 +137,13 @@ p a:hover {
     }
 }
 
+@media (max-width: 1400px) {
+    table {
+        width: 55%;
+        border-collapse: collapse;
+    }
+}
+
 /* Large devices (Small desktops, large tablets, landscape) */
 @media (max-width: 1025px) {
     h1 {
@@ -162,5 +169,10 @@ p a:hover {
 
     .about-button {
         font-size: 0.7rem;
+    }
+
+    table {
+        width: 55%;
+        border-collapse: collapse;
     }
 }

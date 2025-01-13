@@ -76,25 +76,9 @@
 
 @media (max-width: 1400px) {
     .about-content {
-        gap: 70px;
-        max-width: 900px;
-    }
-
-    .about-button {
-        gap: 20px; 
-    }
-    
-    .about-button {
-        max-width: 70px;
-    }
-}
-
-/* Large devices (Small desktops, large tablets, landscape) */
-@media (max-width: 1025px) {
-    .about-content {
         flex-direction: column;
         gap: 30px;
-        max-width: 650px;
+        max-width: 800px;
     }
 
     .about-image {
@@ -106,14 +90,21 @@
         margin: 0;
         padding: 0;
         margin-bottom: 50px;
-        gap: 10px; /* Reduce gap between elements */
+        gap: 10px;
     }
 
     .about-text h2 {
-        margin-bottom: -10px; /* Adjust gap below heading */
+        margin-bottom: -10px;
     }
 
     .about-text p {
-        margin-bottom: 13px; /* Adjust gap below paragraph */
+        margin-bottom: 13px;
+    }
+}
+
+/* Large devices (Small desktops, large tablets, landscape) */
+@media (max-width: 1025px) {
+    .about-content {
+        max-width: 650px;
     }
 }

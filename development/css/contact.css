@@ -1,5 +1,4 @@
 /* contact.css */
-
 .contact {
     display: flex;
     justify-content: center;
@@ -97,6 +96,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 1400px) {
+    .contact {
+        flex-direction: column;
+        padding: 100px 1rem;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        max-width: 925px;
+        width: 100%;
+        box-sizing: border-box; /* Ensure padding is included in total width */
+    }
+
+    .contact-info, .contact-map {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-map iframe {
+        width: 100%;
+        max-width: 100%; /* Prevent exceeding the container width */
+        height: 500px;   /* Adjust height as needed */
+        border: 0;
+        box-sizing: border-box;
+    }
 }
 
 /* Responsive one-column layout for smaller screens */

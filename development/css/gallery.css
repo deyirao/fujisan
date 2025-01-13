@@ -61,11 +61,6 @@
 
 /* Large devices (Small desktops, large tablets, landscape) */
 @media (max-width: 1025px) {
-    table {
-        width: 55%;
-        border-collapse: collapse;
-    }
-
     .gallery p {
         max-width: 520px;
     }
