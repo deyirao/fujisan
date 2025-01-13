@@ -103,13 +103,17 @@
 
     .about-text {
         order: 1;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 50px;
+        gap: 10px; /* Reduce gap between elements */
     }
 
-    .about-button {
-        padding: 15px 288px;
-        align-self: center;
-        font-size: 0.9rem;
-        background-color: #c0c0c0;
-        color: black;
+    .about-text h2 {
+        margin-bottom: -10px; /* Adjust gap below heading */
+    }
+
+    .about-text p {
+        margin-bottom: 13px; /* Adjust gap below paragraph */
     }
 }
