@@ -176,3 +176,37 @@ p a:hover {
         border-collapse: collapse;
     }
 }
+
+/* Tablet-specific styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.3rem;
+        line-height: 2.8rem;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    p, td, table tr td {
+        font-size: 0.9rem;
+    }
+
+    .navbar ul li a {
+        font-size: 0.7rem;
+    }
+
+    .hero-button {
+        font-size: 0.7rem;
+    }
+
+    .about-button {
+        font-size: 0.7rem;
+    }
+
+    table {
+        width: 80%;
+        border-collapse: collapse;
+    }
+}
+  

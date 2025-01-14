@@ -129,3 +129,30 @@
         max-width: 60px;
     }
 }
+
+ /* Tablet-specific styles */
+@media (max-width: 768px) {
+    .hero-content {
+        margin-top: -380px;
+    }
+    
+    .hero h1 {
+        margin-bottom: 25px;
+        width: 600px;
+    }
+    
+    .hero p {
+        margin-bottom: 35px;
+        width: 350px;
+    }
+    
+    .hero-buttons {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .hero-button {
+        max-width: 60px;
+    }
+}

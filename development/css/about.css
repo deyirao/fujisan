@@ -108,3 +108,10 @@
         max-width: 650px;
     }
 }
+
+ /* Tablet-specific styles */
+ @media (max-width: 768px) {
+    .about-content {
+        max-width: 400px;
+    }
+}
