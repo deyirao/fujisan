@@ -76,6 +76,7 @@
     border: 2px solid #d22626;
 }
 
+/* Full HD */
 @media (max-width: 1920px) {
     .hero-content {
         margin-top: -380px;
