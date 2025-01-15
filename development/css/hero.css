@@ -21,8 +21,11 @@
 
 .hero-content {
     position: relative;
+    display: flex;
+    flex-direction: column;
     z-index: 2;
-    margin-top: -520px;
+    margin-top: 0px;
+    transform: translateY(-35%);
     text-align: center;
     justify-content: center;
 }
@@ -79,7 +82,8 @@
 /* Full HD */
 @media (max-width: 1920px) {
     .hero-content {
-        margin-top: -380px;
+        margin-top: 0px;
+        transform: translateY(-35%)
     }
     
     .hero h1 {
@@ -106,7 +110,8 @@
 /* Large devices (Small desktops, large tablets, landscape) */
 @media (max-width: 1025px) {
     .hero-content {
-        margin-top: -380px;
+        margin-top: 0px;
+        transform: translateY(-30%)
     }
     
     .hero h1 {
@@ -133,7 +138,7 @@
  /* Tablet-specific styles */
 @media (max-width: 768px) {
     .hero-content {
-        margin-top: -380px;
+        transform: translateY(-25%)
     }
     
     .hero h1 {

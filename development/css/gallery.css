@@ -60,6 +60,11 @@
 
 /* Large devices (Small desktops, large tablets, landscape) */
 @media (max-width: 1025px) {
+    .gallery {
+        padding: 100px 1rem;
+        padding-bottom: 130px;
+    }
+
     .gallery p {
         max-width: 520px;
     }

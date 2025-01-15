@@ -28,5 +28,5 @@
 
 13. ~~Remove the 'br' tags in the index.html and set the text breaks per CSS~~
 
-14. Make the website responsive for all screens (qhd, full hd, etc.)
+14. ~~Make the website responsive for all screens (qhd, full hd, etc.)~~
 
