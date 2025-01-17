@@ -69,3 +69,10 @@
         max-width: 520px;
     }
 }
+
+@media (max-width: 768px) {
+    .gallery {
+        padding: 50px 1rem;
+        padding-bottom: 80px;
+    }
+}

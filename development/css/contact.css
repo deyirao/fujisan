@@ -136,8 +136,11 @@
     .contact {
         padding: 100px 1rem;
     }
+}
 
-    .contact-content {
-        max-width: 700px;
+/* Tablet-specific styles */
+@media (max-width: 768px) {
+    .contact {
+        padding: 50px 1rem;
     }
 }

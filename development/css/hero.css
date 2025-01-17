@@ -25,7 +25,7 @@
     flex-direction: column;
     z-index: 2;
     margin-top: 0px;
-    transform: translateY(-35%);
+    transform: translateY(-50%);
     text-align: center;
     justify-content: center;
 }
@@ -83,7 +83,7 @@
 @media (max-width: 1920px) {
     .hero-content {
         margin-top: 0px;
-        transform: translateY(-35%)
+        transform: translateY(-45%)
     }
     
     .hero h1 {
@@ -111,7 +111,7 @@
 @media (max-width: 1025px) {
     .hero-content {
         margin-top: 0px;
-        transform: translateY(-30%)
+        transform: translateY(-40%)
     }
     
     .hero h1 {
@@ -138,7 +138,7 @@
  /* Tablet-specific styles */
 @media (max-width: 768px) {
     .hero-content {
-        transform: translateY(-25%)
+        transform: translateY(-35%)
     }
     
     .hero h1 {

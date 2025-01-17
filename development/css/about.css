@@ -104,6 +104,10 @@
 
 /* Large devices (Small desktops, large tablets, landscape) */
 @media (max-width: 1025px) {
+    .about {
+        padding: 100px 0;
+    }
+
     .about-content {
         max-width: 650px;
     }
@@ -112,7 +116,7 @@
  /* Tablet-specific styles */
  @media (max-width: 768px) {
     .about {
-        padding: 100px 0;
+        padding: 70px 0;
     }
 
     .about-content {

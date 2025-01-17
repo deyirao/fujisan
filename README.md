@@ -32,7 +32,7 @@
 
 15. ~~Set the fujisan logo in the tab description in browser~~
 
-16. Set top and bottom padding for each section down for smaller screens
+16. ~~Set top and bottom padding for each section down for smaller screens~~
 
 17. Make sure to not be able to horizontally scroll on phone screens because of gallery
 
