@@ -1,40 +1,18 @@
-# fujisan
+# Fujisan website
 
-## TODO:
+## Description
+This project is a proprietary software solution developed by Deyi Rao in 2025. It is designed for business purposes.
 
-1. ~~Change icons from contact section~~
+## License
+This project is licensed under a **Proprietary License**. All rights are reserved. Unauthorized copying, modification, distribution, or any other unauthorized use of the code and related files is strictly prohibited.
 
-2. ~~Change text alignment for opening hours~~
+For inquiries regarding licensing or permissions, please contact:
 
-3. ~~Create links for mail and phone number in contact section~~
+**Deyi Rao**
+Email: [deyi.rao@gmx.de]
 
-4. ~~Create link to linkedin profile for footer designer name~~
+## Contributing
+Contributions are currently not accepted. Please contact the author for more information if needed.
 
-5. ~~Unify the margins between all sections (bottom and top margin should be the same)~~
-
-6. ~~Create a manual slider instead of a carousel for gallery section~~
-
-7. ~~Make sure buttons work for "Speisekarte", "Bestellen" and "Reservieren"~~
-
-8. ~~Make the navigation links scroll smoothly to the corresponding section~~
-
-9. ~~Add a link for the fujisan logo on the navigation bar~~
-
-10. ~~Create a drop-down menu for the germany flag with the additional flags for neitherlands and england~~
-
-11. ~~Add english text for the english version of the website~~
-
-12. ~~Add dutch text for the dutch version of the website~~
-
-13. ~~Remove the 'br' tags in the index.html and set the text breaks per CSS~~
-
-14. ~~Make the website responsive for all screens (qhd, full hd, etc.)~~
-
-15. ~~Set the fujisan logo in the tab description in browser~~
-
-16. ~~Set top and bottom padding for each section down for smaller screens~~
-
-17. ~~Make sure to not be able to horizontally scroll on phone screens because of gallery~~
-
-18. ~~Make images smaller file size for faster loading~~
-
+## Disclaimer
+This software is provided "as is" without any warranties, express or implied, including but not limited to fitness for a particular purpose. The author shall not be held liable for any damages arising from the use of this software.
