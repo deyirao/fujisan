@@ -1,4 +1,4 @@
-# Fujisan website
+# fujisan
 
 ## Description
 This project is a proprietary software solution developed by Deyi Rao in 2025. It is designed for business purposes.
