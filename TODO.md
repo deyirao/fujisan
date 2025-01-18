@@ -38,7 +38,7 @@
 
 18. ~~Make images smaller file size for faster loading~~
 
-19. Make hamburger menu button closer to the language flag for smaller screens
+19. ~~Make hamburger menu button closer to the language flag for smaller screens~~
 
 20. Upon clicking something in the hamburger menu, close the hamburger menu
 

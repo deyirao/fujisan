@@ -234,3 +234,16 @@
         transform: translateY(0);
     }
 }
+
+@media (max-width: 768px) {
+    .flag {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .flag {
+        margin-left: 0px;
+    }
+}
+
