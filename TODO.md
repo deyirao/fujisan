@@ -42,5 +42,5 @@
 
 20. ~~Upon clicking something in the hamburger menu, close the hamburger menu~~
 
-21. Increase font size for hamburger menu nav links
+21. ~~Increase font size for hamburger menu nav links~~
 

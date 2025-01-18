@@ -161,7 +161,7 @@ p a:hover {
     }
 
     .navbar ul li a {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .hero-button {
@@ -191,10 +191,6 @@ p a:hover {
 
     p, td, table tr td {
         font-size: 0.9rem;
-    }
-
-    .navbar ul li a {
-        font-size: 0.7rem;
     }
 
     .hero-button {
