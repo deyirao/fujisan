@@ -36,5 +36,5 @@
 
 17. ~~Make sure to not be able to horizontally scroll on phone screens because of gallery~~
 
-18. Make images smaller file size for faster loading
+18. ~~Make images smaller file size for faster loading~~
 
