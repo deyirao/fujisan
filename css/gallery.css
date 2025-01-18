@@ -74,4 +74,14 @@
         padding: 50px 1rem;
         padding-bottom: 80px;
     }
+
+    .gallery p {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .gallery p {
+        max-width: 300px;
+    }
 }
