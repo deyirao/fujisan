@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 150px 0;
+    padding: 150px 50px;
     background-color: #fafafa;
 }
 
@@ -75,6 +75,10 @@
 }
 
 @media (max-width: 1400px) {
+    .about {
+        padding: 150px 100px;
+    }
+
     .about-content {
         flex-direction: column;
         gap: 30px;
@@ -105,21 +109,13 @@
 /* Large devices (Small desktops, large tablets, landscape) */
 @media (max-width: 1025px) {
     .about {
-        padding: 100px 0;
-    }
-
-    .about-content {
-        max-width: 650px;
+        padding: 100px 70px;
     }
 }
 
  /* Tablet-specific styles */
- @media (max-width: 768px) {
+@media (max-width: 768px) {
     .about {
-        padding: 70px 0;
-    }
-
-    .about-content {
-        max-width: 400px;
+        padding: 70px 50px;
     }
 }
